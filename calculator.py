@@ -25,3 +25,8 @@ print("Units Consumed:", units, "kWh")
 print("Electricity Charge: Rs.", bill)
 print("------------------------------")
 
+sscl = bill * 0.025
+total_bill = bill + sscl
+
+print("SSCL (2.5%): Rs.", sscl)
+print("Total Bill: Rs.", total_bill)

@@ -13,3 +13,7 @@ if consumer_type == "domestic":
 
 elif consumer_type == "corporate":
     bill = units * 25
+
+elif consumer_type == "religious":
+    bill = units * 5
+
